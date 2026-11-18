@@ -25,3 +25,19 @@ the same commands on my own machine for the first time.
 
 **What I learned:** navigating the Linux filesystem from the command line, searching for and reading files,
 inspecting system and disk information, and that Linux and Windows shells use different commands.
+
+### Nov 18, 2026 — TryHackMe: Windows CLI Basics (completed)
+Practiced the Windows command line: the difference between CMD and PowerShell, file navigation and search
+(dir, dir /s, cd, type), and system reconnaissance with systeminfo. Learned to filter output with findstr and
+pipes (|), and to check installed patches/hotfixes. Mapped Windows commands to their Linux equivalents
+(dir↔ls, type↔cat, findstr↔grep).
+
+### Nov 18, 2026 — TryHackMe: Operating System Security (completed)
+Learned OS security fundamentals and practiced SSH on Linux. Connected from the AttackBox to a target machine
+over SSH, explored the system (whoami, ls, cat, history), and worked through a full attack chain in the lab:
+logged in with a weak password, moved laterally between user accounts (su), found a root password accidentally
+left in command history, and escalated to root. Reinforced — from the defender's side — why weak/reused
+passwords and least privilege matter.
+
+---
+_Note: I study around my university schedule, so some weeks are lighter during exams._
