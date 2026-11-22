@@ -46,5 +46,21 @@ logged in with a weak password, moved laterally between user accounts (su), foun
 left in command history, and escalated to root. Reinforced — from the defender's side — why weak/reused
 passwords and least privilege matter.
 
+### Nov 20, 2026 — TryHackMe: Data Representation & Data Encoding (completed)
+Covered how computers represent data: binary, hexadecimal and decimal number systems, how colors are stored as
+RGB bytes, and how characters become numbers through encodings (ASCII, Unicode, UTF-8/16/32). Moved through these
+quickly since I'll study the math in depth in my Digital Electronics course.
+
+What I learned: converting between binary, hex and decimal; reading raw bytes in hex (used in packet captures,
+memory dumps and malware analysis); and how encoding mismatches or look-alike characters can be abused in attacks.
+
+### Nov 22, 2026 — Python: first program on my own machine
+Started Python — my main language for security automation and the AI work ahead. Wrote my first complete program
+on my own Linux Mint VM: a "guess the number" game using variables, input/output, conditionals (if/elif/else),
+a while loop, a counter, and the random module.
+
+What I learned: the core building blocks of programming (variables, conditions, loops) — the same blocks used to
+write security scripts and, later, AI agents. Also learned that computer "randomness" is pseudo-random, which
+itself matters for security.
 ---
 _Note: I study around my university schedule, so some weeks are lighter during exams._
