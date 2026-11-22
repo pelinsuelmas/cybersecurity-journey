@@ -59,6 +59,14 @@ Started Python — my main language for security automation and the AI work ahea
 on my own Linux Mint VM: a "guess the number" game using variables, input/output, conditionals (if/elif/else),
 a while loop, a counter, and the random module.
 
+### Nov 22, 2026 — Python: first programs + first security script
+Started Python on my own machine and wrote my first complete program (a "guess the number" game), then built
+my first small security tool: an IP blocklist checker that scans incoming IPs against a blocklist and reports
+which are suspicious. Added it to python-scripts/. Concepts used: variables, input/output, conditionals
+(if/elif/else), while and for loops, lists, a counter, and len().
+
+What I learned: the core building blocks of programming — and that a few lines of Python can do real security
+work (checking many IPs against a blocklist in seconds). The foundation of detection and automation.
 What I learned: the core building blocks of programming (variables, conditions, loops) — the same blocks used to
 write security scripts and, later, AI agents. Also learned that computer "randomness" is pseudo-random, which
 itself matters for security.
