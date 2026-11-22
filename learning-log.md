@@ -54,21 +54,15 @@ quickly since I'll study the math in depth in my Digital Electronics course.
 What I learned: converting between binary, hex and decimal; reading raw bytes in hex (used in packet captures,
 memory dumps and malware analysis); and how encoding mismatches or look-alike characters can be abused in attacks.
 
-### Nov 22, 2026 — Python: first program on my own machine
-Started Python — my main language for security automation and the AI work ahead. Wrote my first complete program
-on my own Linux Mint VM: a "guess the number" game using variables, input/output, conditionals (if/elif/else),
-a while loop, a counter, and the random module.
-
 ### Nov 22, 2026 — Python: first programs + first security script
-Started Python on my own machine and wrote my first complete program (a "guess the number" game), then built
-my first small security tool: an IP blocklist checker that scans incoming IPs against a blocklist and reports
-which are suspicious. Added it to python-scripts/. Concepts used: variables, input/output, conditionals
-(if/elif/else), while and for loops, lists, a counter, and len().
+Started Python on my own machine. Wrote my first complete program — a "guess the number" game — then built my
+first small security tool: an IP blocklist checker that scans incoming IPs against a blocklist and flags the
+suspicious ones. Added it to python-scripts/. Concepts used: variables, input/output, conditionals (if/elif/else),
+while and for loops, lists, a counter, len(), and the random module.
 
-What I learned: the core building blocks of programming — and that a few lines of Python can do real security
-work (checking many IPs against a blocklist in seconds). The foundation of detection and automation.
 What I learned: the core building blocks of programming (variables, conditions, loops) — the same blocks used to
-write security scripts and, later, AI agents. Also learned that computer "randomness" is pseudo-random, which
-itself matters for security.
+write security scripts and, later, AI agents. A few lines of Python can do real security work (checking many IPs
+against a blocklist in seconds) — the foundation of detection and automation. Also learned that computer
+"randomness" is pseudo-random, which itself matters for security.
 ---
 _Note: I study around my university schedule, so some weeks are lighter during exams._
