@@ -1,10 +1,17 @@
-# 📓 Learning Log — My SOC Journey
+# 📓 Learning Log — My Cybersecurity Journey
 
 A short log of the rooms I complete and what I learn along the way.
 Goal: track my progress and show consistency over time.
 
 ---
+### Nov 9, 2026 — TryHackMe: Intro to Defensive Security
+My first defensive security room. On a security dashboard (Security Hub) I spotted a critical alert — an attacker
+was probing hidden admin pages. I investigated which pages they tried, identified the most recent attempt, then
+responded by blocking the attacker's IP and deploying protective controls. The threat was stopped before it
+reached anything sensitive.
 
+What I learned: the detect → investigate → respond workflow, and layered defense — block the attacker first,
+then harden the system.
 ### Nov 9, 2026 — TryHackMe: Windows Fundamentals
 Explored a Windows Server 2019 workstation: navigated the desktop, taskbar and Start menu, checked system/device
 info in Settings, managed files with File Explorer, used Task Manager to view users and processes, and ran a
